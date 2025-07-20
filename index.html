@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grafics - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #fff;
+      font-weight: 600;
+    }
+
+    .navbar-brand img {
+      height: 45px;
+    }
+
+    .hero {
+      background-color: #0051ff;
+      color: #fff;
+      padding: 60px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero img {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      border: 3px solid #fff;
+    }
+
+    .mentor-label {
+      background-color: #fff;
+      color: #000;
+      font-size: 0.75rem;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+<img src="images/Grafcs.png" alt="Grafics Logo" style="height: 45px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+  <a class="nav-link" href="#" id="whatWeDoToggle">WHAT WE DO</a>
+</li>
+
+
+        <li class="nav-item">
+  <a class="nav-link" href="#" id="whatWeThinkLink">WHAT WE THINK</a>
+</li>
+
+        <li class="nav-item"><a class="nav-link" href="#">ABOUT GRAF!CS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">CAREER</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- LEFT: Text, Stats, Buttons -->
+      <div class="col-md-6">
+        <h1 class="fw-bold">Don’t Just Upskill, Get Career-ready, Get Hired</h1>
+        <p class="lead mt-3">Top Mentorship Programs in Tech, Marketing, & Data — Designed and Delivered by industry maestros.</p>
+
+        <!-- Stats -->
+        <div class="row text-white mt-4">
+          <div class="col-4 text-center">
+            <h5 class="fw-bold">1.5 Lakh +</h5>
+            <p class="mb-0">Aspirants Mentored</p>
+          </div>
+          <div class="col-4 text-center">
+            <h5 class="fw-bold">1700+</h5>
+            <p class="mb-0">Cohorts Delivered</p>
+          </div>
+          <div class="col-4 text-center">
+            <h5 class="fw-bold">40+</h5>
+            <p class="mb-0">Industry Mentors</p>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="mt-4 d-flex flex-wrap gap-3">
+          <button class="btn btn-light text-primary fw-semibold px-4">Explore Programs</button>
+          <button class="btn btn-outline-light fw-semibold px-4">Book Mentor Session</button>
+        </div>
+      </div>
+
+      <!-- RIGHT: Mentor Images + Labels -->
+      <div class="col-md-6 text-center position-relative">
+        <div class="position-relative" style="height: 350px; width: 100%;">
+
+          <!-- Images -->
+          <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle position-absolute" style="top: 0%; left: 40%; width: 75px;">
+          <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle position-absolute" style="top: 20%; left: 60%; width: 70px;">
+          <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle position-absolute" style="top: 40%; left: 10%; width: 75px;">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg" class="rounded-circle position-absolute" style="top: 45%; left: 45%; width: 80px;">
+          <img src="https://randomuser.me/api/portraits/women/21.jpg" class="rounded-circle position-absolute" style="top: 60%; left: 70%; width: 65px;">
+          <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle position-absolute" style="top: 70%; left: 30%; width: 70px;">
+          <img src="https://randomuser.me/api/portraits/women/9.jpg" class="rounded-circle position-absolute" style="top: 80%; left: 55%; width: 60px;">
+
+          <!-- Labels -->
+          <div class="position-absolute mentor-label" style="top: 15%; left: 53%;">Python</div>
+          <div class="position-absolute mentor-label" style="top: 55%; left: 78%;">Full Stack Development</div>
+          <div class="position-absolute mentor-label" style="top: 80%; left: 10%;">Performance Marketing</div>
+          <div class="position-absolute mentor-label" style="top: 90%; left: 60%;">Data Analytics</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Optional Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+                          <!-- What We Do Page -->
+<div id="whatWeDoPanel" class="position-absolute bg-white shadow rounded p-4 d-none" style="top: 80px; right: 20px; width: 300px; z-index: 1050;">
+  <h5 class="fw-bold border-start border-4 ps-2 border-warning mb-2">What We Do</h5>
+  
+  <ul class="list-unstyled mb-0">
+    <li class="mb-2">Applications</li>
+    <li class="mb-2">Artificial Intelligence</li>
+    <li class="mb-2">Business Process Services</li>
+    <li class="mb-2">Cloud</li>
+    <li class="mb-2">Consulting</li>
+    <li class="mb-2">Cybersecurity</li>
+    <li class="mb-2">Data & Analytics</li>
+    <li class="mb-2">Digital Experiences</li>
+    <li class="mb-2">Engineering</li>
+    <li class="mb-2">Sustainability</li>
+  </ul>
+</div>
+
+
+
+
+<!-- PAGE 2 - Who We Are -->
+<section class="who-we-are py-5" style="background-color: #f9f9f9;">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">WHO WE ARE</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p style="font-size: 1.1rem; text-align: justify;">
+          Welcome to <strong>Grafics</strong> – your trusted partner in IT services.<br><br>
+          We are a dynamic tech company dedicated to delivering smart, scalable, and secure digital solutions.<br><br>
+          From custom software development to cloud services, cybersecurity, and UI/UX design, we help businesses streamline operations and embrace innovation.<br><br>
+          With a focus on quality, creativity, and client success, Grafics turns complex challenges into simple, impactful solutions.<br><br>
+          Let’s build the future of technology — together.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="https://media.istockphoto.com/id/1332176245/photo/woman-making-a-business-presentation-at-a-creative-office.jpg?s=2048x2048&w=is&k=20&c=7tIDSUINEJzLtxGi1rwUZrEZV3242zOJrn9fdtz0VRs=" 
+             class="img-fluid rounded shadow" 
+             alt="Marketing Team">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- HOME PAGE SECTION (Visible Initially) -->
+<div id="homePageSection">
+  <!-- Replace this with your actual homepage content -->
+  <section class="hero text-white py-5" style="background-color: #0051ff;">
+    <div class="container text-center">
+      <h1>Welcome to Grafics</h1>
+      <p>This is the homepage. Click on "WHAT WE THINK" to see the next section.</p>
+    </div>
+  </section>
+</div>
+
+<!-- WHAT WE THINK PAGE (Hidden Initially) -->
+<div id="whatWeThinkSection" class="d-none">
+  <section style="background: linear-gradient(to right, #b3399b, #7927a9); min-height: 100vh;" class="text-white d-flex align-items-center justify-content-center">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">What We Think</h1>
+      <img src="https://media.istockphoto.com/id/1435686874/photo/pensive-clever-indian-or-arabian-guy-student-or-freelancer-using-laptop-working-or-studying.jpg?s=612x612&w=0&k=20&c=a_7Ax_TXo_mxsXhDnOah36wmTxK5vxujpXBeV0o8dHs=" class="img-fluid rounded mt-4" alt="What We Think Image" style="max-height: 500px;">
+      <button class="btn btn-light mt-4" onclick="goBackHome()">Back to Home</button>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+<!-- Contact Us  -->
+<section id="contact" class="py-5" style="background-color: rosybrown; color: black;">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">Full Name</label>
+        <input type="text" class="form-control bg-white text-dark" placeholder="Your Name">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control bg-white text-dark" placeholder="you@example.com">
+      </div>
+      <div class="col-12">
+        <label class="form-label">Subject</label>
+        <input type="text" class="form-control bg-white text-dark" placeholder="Subject">
+      </div>
+      <div class="col-12">
+        <label class="form-label">Message</label>
+        <textarea class="form-control bg-white text-dark" rows="5" placeholder="Write your message here..."></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-light px-5 fw-bold">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+  const toggleBtn = document.getElementById('whatWeDoToggle');
+  const panel = document.getElementById('whatWeDoPanel');
+
+  toggleBtn.addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent default anchor behavior
+    panel.classList.toggle('d-none');
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!panel.contains(e.target) && e.target !== toggleBtn) {
+      panel.classList.add('d-none');
+    }
+  });
+</script>
+
+<script>
+  const whatWeThinkBtn = document.getElementById('whatWeThinkBtn');
+  const homePageSection = document.getElementById('homePageSection');
+  const whatWeThinkSection = document.getElementById('whatWeThinkSection');
+
+  whatWeThinkBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    homePageSection.classList.add('d-none');
+    whatWeThinkSection.classList.remove('d-none');
+  });
+
+  function goBackHome() {
+    whatWeThinkSection.classList.add('d-none');
+    homePageSection.classList.remove('d-none');
+  }
+</script>
+
+
+
+
+</body>
+</html>
